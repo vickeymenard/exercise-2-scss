@@ -68,11 +68,11 @@ h2 {
   /* line 30, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-2-scss/scss/mixins */
   .icons-2:hover {
     font-size: 130px;
-    background-color: #a67a67;
+    background-color: #3a261b;
     padding: 0.1em;
     border-radius: 100%;
-    color: #3a261b;
-    border: 3px solid #3a261b; }
+    color: #a67a67;
+    border: 3px solid #a67a67; }
 
 /* line 31, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-2-scss/scss/components/main */
 p {

@@ -19,7 +19,7 @@
 	text-transform: uppercase;
 }
 
-@mixin icon($bg-color, $color, $border-color){
+@mixin icon($bg-color, $color, $border-color, $hover-bg-color, $hover-color, $hover-border-color){
 	font-size: 130px;
 	padding: .1em;
 	background-color: $bg-color;
@@ -29,10 +29,10 @@
 	margin: auto 2%;
 	&:hover{
 		font-size: 130px;
-		background-color: $secondary-color;
+		background-color: $hover-bg-color;
 		padding: .1em;
 		border-radius: 100%;
-		color: $secondary-dark-color;
-		border: 3px solid $secondary-dark-color;
+		color: $hover-color;
+		border: 3px solid $hover-border-color;
 	}
 }

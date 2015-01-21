@@ -21,11 +21,11 @@ h2{
 }
 
 .icons{
-	@include icon($secondary-dark-color, $secondary-color, $secondary-color);
+	@include icon($secondary-dark-color, $secondary-color, $secondary-color, $secondary-color, $secondary-dark-color, $secondary-dark-color);
 }
 
 .icons-2{
-	@include icon($secondary-color, $secondary-dark-color, $secondary-dark-color);
+	@include icon($secondary-color, $secondary-dark-color, $secondary-dark-color, $secondary-dark-color, $secondary-color, $secondary-color);
 }
 
 p{
