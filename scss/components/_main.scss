@@ -1,0 +1,38 @@
+/* This is our main file for css/sass */
+
+body{
+	text-align: center;
+	background: transparent url('../images/rodeo.jpg') no-repeat center;
+	background-size: cover;
+	margin: 0;
+}
+
+.content{
+	background-color: rgba(206,56,36,.7);
+	padding-top: -3em;
+}
+
+h1{
+	@include h1($secondary-color, $primary-font);
+}
+
+h2{
+	@include h2($secondary-font, $primary-dark-color, $thin);
+}
+
+.icons{
+	@include icon($secondary-dark-color, $secondary-color, $secondary-color);
+}
+
+.icons-2{
+	@include icon($secondary-color, $secondary-dark-color, $secondary-dark-color);
+}
+
+p{
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+	color: white;
+	font-size: 30px;
+	padding-bottom: 1em;
+}
+

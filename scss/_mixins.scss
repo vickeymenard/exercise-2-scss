@@ -1,0 +1,38 @@
+/* This file contains all our mixins */
+
+@mixin h1($color, $font){
+	color: $color;
+	text-align: center;
+	margin-top: 2em;
+	padding-top: .5em;
+	font-family: $font;
+	font-size: $h1;
+	padding-bottom: .5em;
+	text-shadow: $text-shadow;
+}
+
+@mixin h2($font, $color, $weight){
+	font-family: $font;
+	color: $color;
+	padding-top: 3em;
+	font-weight: $weight;
+	text-transform: uppercase;
+}
+
+@mixin icon($bg-color, $color, $border-color){
+	font-size: 130px;
+	padding: .1em;
+	background-color: $bg-color;
+	border-radius: 25%;
+	color: $color;
+	border: 3px solid $border-color;
+	margin: auto 2%;
+	&:hover{
+		font-size: 130px;
+		background-color: $secondary-color;
+		padding: .1em;
+		border-radius: 100%;
+		color: $secondary-dark-color;
+		border: 3px solid $secondary-dark-color;
+	}
+}

@@ -2,19 +2,27 @@
 
 /* color palette */
 
-$primary: rgba(206,56,36,.7);
-$secondary: #a67a67;
-$primary-dark: #420000;
-$secondary-dark: #3a261b;
-$light: #f2ece9;
-
-$background: transparent url('..images/rodeo.jpg') no-repeat center;
+//red
+$primary-color: rgba(206,56,36,.7);
+//brown
+$secondary-color: #a67a67;
+// dark red
+$primary-dark-color: #420000;
+//dark brown
+$secondary-dark-color: #3a261b;
+//white
+$light-color: #f2ece9;
 
 /* fonts */
 
 $primary-font: 'Alfa Slab One', cursive;
 $secondary-font: arial, sans-serif;
+$thin: lighter;
 
 /* font size */
 
 $h1: 60px;
+
+/* Styling */
+
+$text-shadow: 3px 3px 10px black;

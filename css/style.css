@@ -4,3 +4,80 @@ one stylesheet which you can then attach to your HTML */
 /* color palette */
 /* fonts */
 /* font size */
+/* Styling */
+/* This file contains all our mixins */
+/* This is our main file for css/sass */
+/* line 3, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-2-scss/scss/components/main */
+body {
+  text-align: center;
+  background: transparent url('../images/rodeo.jpg') no-repeat center;
+  background-size: cover;
+  margin: 0; }
+
+/* line 10, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-2-scss/scss/components/main */
+.content {
+  background-color: rgba(206, 56, 36, 0.7);
+  padding-top: -3em; }
+
+/* line 15, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-2-scss/scss/components/main */
+h1 {
+  color: #a67a67;
+  text-align: center;
+  margin-top: 2em;
+  padding-top: 0.5em;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 60px;
+  padding-bottom: 0.5em;
+  text-shadow: 3px 3px 10px black; }
+
+/* line 19, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-2-scss/scss/components/main */
+h2 {
+  font-family: arial, sans-serif;
+  color: #420000;
+  padding-top: 3em;
+  font-weight: lighter;
+  text-transform: uppercase; }
+
+/* line 23, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-2-scss/scss/components/main */
+.icons {
+  font-size: 130px;
+  padding: 0.1em;
+  background-color: #3a261b;
+  border-radius: 25%;
+  color: #a67a67;
+  border: 3px solid #a67a67;
+  margin: auto 2%; }
+  /* line 30, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-2-scss/scss/mixins */
+  .icons:hover {
+    font-size: 130px;
+    background-color: #a67a67;
+    padding: 0.1em;
+    border-radius: 100%;
+    color: #3a261b;
+    border: 3px solid #3a261b; }
+
+/* line 27, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-2-scss/scss/components/main */
+.icons-2 {
+  font-size: 130px;
+  padding: 0.1em;
+  background-color: #a67a67;
+  border-radius: 25%;
+  color: #3a261b;
+  border: 3px solid #3a261b;
+  margin: auto 2%; }
+  /* line 30, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-2-scss/scss/mixins */
+  .icons-2:hover {
+    font-size: 130px;
+    background-color: #a67a67;
+    padding: 0.1em;
+    border-radius: 100%;
+    color: #3a261b;
+    border: 3px solid #3a261b; }
+
+/* line 31, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-2-scss/scss/components/main */
+p {
+  font-family: 'Alfa Slab One', cursive;
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  padding-bottom: 1em; }
